@@ -1,10 +1,13 @@
 body {
-  background-color: #fff;
-  color: #333;
+  background-color: rgb(61, 81, 148);
+  color: rgb(255, 255, 255);
   margin: 33px;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
+  width:700px;
+  margin-right: auto;
+  margin-left : auto;
 }
 
 p, ol, ul, td {
@@ -20,15 +23,15 @@ pre {
 }
 
 a {
-  color: #000;
+  color: rgb(255, 254, 254);
 
   &:visited {
-    color: #666;
+    color: rgb(199, 199, 199);
   }
 
   &:hover {
     color: #fff;
-    background-color: #000;
+    background-color: rgba(128, 125, 136, 0.671);
   }
 }
 
