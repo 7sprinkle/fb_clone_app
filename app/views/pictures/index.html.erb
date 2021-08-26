@@ -12,6 +12,7 @@
   <tbody>
     <% @pictures.each do |picture| %>
       <tr>
+        <td><%= picture.user.name %></td>
         <td><%= image_tag picture.image.url, size: "200x200" if picture.image.url.present?%></td>
         <td><%= picture.content %></td>
         <td><%= link_to 'Show', picture %></td>
